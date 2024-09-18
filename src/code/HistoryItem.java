@@ -10,4 +10,10 @@ public class HistoryItem {
 	public int getAmount() {
 		return amount;
 	}
+	
+	@Override
+	public String toString() {
+		String m = "HI";
+		return m;
+	}
 }
