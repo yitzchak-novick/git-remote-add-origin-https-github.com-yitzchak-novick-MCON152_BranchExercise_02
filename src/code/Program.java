@@ -26,7 +26,7 @@ public class Program {
 		}
 		System.out.println("Goal met");
 		if (goalTracker.getCurrTotal() > goalTracker.getGoal()) {
-			System.out.println("Goal was exceeded by " + (goalTracker.getGoal() - goalTracker.getCurrTotal()));
+			System.out.println("Goal was exceeded by " + (goalTracker.getCurrTotal()- goalTracker.getGoal()));
 		}
 	}
 
