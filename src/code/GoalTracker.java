@@ -29,4 +29,8 @@ public class GoalTracker {
 		historyItems.add(historyItem);
 		currTotal += historyItem.getAmount();
 	}
+	
+	public int getDeficit() {
+		return goal - currTotal;
+	}
 }

@@ -23,6 +23,7 @@ public class Program {
 				accomplishedAmount = keyboardInput.nextInt();
 			}
 			System.out.println("Accomplishment added");
+			System.out.println("Deficit: " + goalTracker.getDeficit());
 			goalTracker.addHistoryItem(new HistoryItem(accomplishedAmount));
 		}
 		System.out.println("Goal met");
