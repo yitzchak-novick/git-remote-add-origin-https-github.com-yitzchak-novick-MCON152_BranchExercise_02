@@ -11,7 +11,7 @@ public class GoalTracker {
 	public GoalTracker(int goal) {
 		this.goal = goal;
 	}
-	
+	//this is a comment
 	public boolean goalIsMet() {
 		boolean success = currTotal >= goal;
 		return success;
