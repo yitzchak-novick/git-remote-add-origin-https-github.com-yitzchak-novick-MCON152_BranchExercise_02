@@ -7,6 +7,7 @@ public class GoalTracker {
 	private int currTotal = 0;
 	private ArrayList<HistoryItem> historyItems = new ArrayList<HistoryItem>();
 	
+	// Ctor
 	public GoalTracker(int goal) {
 		this.goal = goal;
 	}
