@@ -13,7 +13,7 @@ public class GoalTracker {
 	}
 	
 	public boolean goalIsMet() {
-		boolean success = currTotal >= goal
+		boolean success = currTotal >= goal;
 		return success;
 	}
 	
