@@ -22,6 +22,7 @@ public class Program {
 				System.out.println("That amount is invalid, please enter a positive amount: ");
 				accomplishedAmount = keyboardInput.nextInt();
 			}
+			System.out.println("Accomplishment added");
 			goalTracker.addHistoryItem(new HistoryItem(accomplishedAmount));
 		}
 		System.out.println("Goal met");
